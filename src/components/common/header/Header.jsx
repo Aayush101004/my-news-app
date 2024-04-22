@@ -1,15 +1,20 @@
 import React, { useState } from "react"
-import Head from "./Head"
-import "./header.css"
 import { Link } from "react-router-dom"
+import "./header.css"
 
 const Header = () => {
   const [navbar, setNavbar] = useState(false)
 
   return (
     <>
-      <Head />
       <header>
+        <div className='head'>
+          <div className='container flexSB paddingTB'>
+            <div className='logo'>
+              <img src='../images/logo.png' alt='' />
+            </div>
+          </div>
+        </div>
         <div className='container paddingSmall'>
           <nav>
             <ul className={navbar ? "navbar" : "flex"} onClick={() => setNavbar(false)}>
@@ -27,9 +32,6 @@ const Header = () => {
               </li>
               <li>
                 <Link to='/sports'>Sports</Link>
-              </li>
-              <li>
-                <Link to='/boxed'>Boxed</Link>
               </li>
               <li>
                 <Link to='/reviews'>Reviews</Link>

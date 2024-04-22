@@ -2,9 +2,10 @@
   cursor: pointer;
 }
 .head .logo img {
-  width: 100px;
+  width: 55px;
 }
 header {
+  display:flex ;
   background-color: #000;
   color: #fff;
 }
@@ -25,18 +26,6 @@ header a {
   color: #fff;
   display: none;
   border: none;
-}
-.head .ad button{
-  cursor: pointer;
-  padding: 5px;
-  border-radius: 5px;
-  background-color: white;
-  border-color: red;
-  color: red;
-}
-
-.head .ad button:hover{
-  background-color: #e7e6e6;
 }
 @media screen and (max-width: 768px) {
   .head .ad {
