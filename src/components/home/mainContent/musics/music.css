@@ -13,6 +13,11 @@
   width: 320px;
   height: 220px;
   object-fit: cover;
+  transition: all 0.3s ease-in-out;
+}
+.music img:hover{
+  transform: scale(1.04);
+  cursor: pointer;
 }
 .music h1 {
   font-size: 22px;

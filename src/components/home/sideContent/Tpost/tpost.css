@@ -9,6 +9,11 @@
   width: 100px;
   height: 80px;
   object-fit: cover;
+  transition: all 0.3s ease-in-out;
+}
+.tpost img:hover{
+  cursor: pointer;
+  transform: scale(1.08);
 }
 .tpost .text {
   padding: 0 15px;

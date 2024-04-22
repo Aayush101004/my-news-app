@@ -1,10 +1,10 @@
 import React, { useState } from "react"
 import { hero } from "../../../dummyData"
-import "./hero.css"
 import Card from "./Card"
+import "./hero.css"
 
 const Hero = () => {
-  const [items, setIems] = useState(hero)
+  const [items, setItems] = useState(hero)
 
   return (
     <>

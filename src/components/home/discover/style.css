@@ -16,6 +16,11 @@
   width: 200px;
   height: 100px;
   object-fit: cover;
+  transition: all 0.3s ease-in-out;
+}
+.discover img:hover{
+  cursor: pointer;
+  transform: scale(1.07);
 }
 .discover h1 {
   padding: 10px;

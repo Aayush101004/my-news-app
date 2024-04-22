@@ -1,10 +1,10 @@
 import React from "react"
-import "./side.css"
 import Slider from "react-slick"
-import Heading from "../../../common/heading/Heading"
 import { gallery } from "../../../../dummyData"
+import Heading from "../../../common/heading/Heading"
 import Tpost from "../Tpost/Tpost"
 import SocialMedia from "../social/SocialMedia"
+import "./side.css"
 
 //const allCat = [...new Set(popular.map((curEle) => curEle.catgeory))]
 //console.log(allCat)
@@ -26,7 +26,7 @@ const Side = () => {
 
       <Heading title='Subscribe' />
 
-      <section className='subscribe'>
+      <section id='subscribe'>
         <h1 className='title'>Subscribe to our New Stories</h1>
         <form action=''>
           <input type='email' placeholder='Email Address...' />
@@ -37,14 +37,14 @@ const Side = () => {
       </section>
 
       <section className='banner'>
-        <img src='./images/sidebar-banner-new.jpg' alt='' />
+        <img src='./images/sidebar-banner-new.jpeg' alt='' />
+        <div>Advertisement</div>
       </section>
 
       <Tpost />
 
       <section className='catgorys'>
-        <Heading title='Catgeorys' />
-        {/*<div className='items'>{allCat}</div>*/}
+        <Heading title='Categorys' />
         {catgeory.map((val) => {
           return (
             <div className='category category1'>

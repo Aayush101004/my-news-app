@@ -29,24 +29,40 @@
   grid-column-end: 5;
   grid-row-start: 1;
   grid-row-end: 9;
+  transition: all 0.3s ease-in-out;
+}
+.hero .box:nth-child(1):hover{
+  transform: scale(1.05);
 }
 .hero .box:nth-child(2) {
   grid-column-start: 5;
   grid-column-end: 9;
   grid-row-start: 1;
   grid-row-end: 5;
+  transition: all 0.3s ease-in-out;
+}
+.hero .box:nth-child(2):hover{
+  transform: scale(1.05);
 }
 .hero .box:nth-child(3) {
   grid-column-start: 5;
   grid-column-end: 7;
   grid-row-start: 5;
   grid-row-end: 9;
+  transition: all 0.3s ease-in-out;
+}
+.hero .box:nth-child(3):hover{
+  transform: scale(1.05);
 }
 .hero .box:nth-child(4) {
   grid-column-start: 7;
   grid-column-end: 9;
   grid-row-start: 5;
   grid-row-end: 9;
+  transition: all 0.3s ease-in-out;
+}
+.hero .box:nth-child(4):hover{
+  transform: scale(1.05);
 }
 .hero .text h1 {
   font-weight: 500;
